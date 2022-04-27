@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# Set up autograder files
+
+cp /autograder/submission/Lesson_6_Assignment_Intermediate_R_Part_1.R /autograder/source/Lesson_6_Assignment_Intermediate_R_Part_1.R
+
+cd /autograder/source
+
+
+Rscript grade_one_submission.r 
